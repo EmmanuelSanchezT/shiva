@@ -1,0 +1,447 @@
+
+:root {
+    --color_primario-rojo: hsl(356, 63%, 55%);
+    --color_primario-gris: hsl(0, 0%, 66%);
+    --color_secundario-negro: hsl(0, 0%, 0%);
+    --color_secundario-blanco: hsl(0, 0%, 100%);
+}
+
+@font-face {
+    font-family: "HIKOU-OUTLINE";
+    src: url(./Hikou\ Outline\ -\ copia.otf);
+    font-family: "HIKOU-REGULAR";
+    src: url(./Hikou\ Regular\ -\ copia.otf); 
+    font-family: "MYRIADPRO-LIGHT";
+    src: url(./Myriad\ Pro\ Light\ -\ copia.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    width: 1440px;
+}
+
+/*Encabezado*/
+
+.Encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color_secundario-blanco);
+    height: 208px ;
+    width: 1440px;
+}
+
+.Logo{
+    bottom: center;
+    padding-left: 122px;
+}
+
+a.DESCÚBRENOS{
+    text-decoration: none;
+    color: black;
+    padding-right: 35px;
+    font-size: 14pt;
+    font-family:'Anton', sans-serif;
+    font-weight: 600;
+    align-content: center;
+    padding-right: 122px;
+}
+
+a.WEBERLY_POLICE{
+    text-decoration: none;
+    color: black;
+    padding-right: 35px;
+    font-size: 14pt;
+    font-family:'Anton', sans-serif;
+    font-weight: 600;
+    align-content: center;
+    padding-right: 122px;
+}
+
+a.JUGUEMOS{
+    text-decoration: none;
+    color: black;
+    padding-right: 35px;
+    font-size: 14pt;
+    font-family:'Anton', sans-serif;
+    font-weight: 600;
+    align-content: center;
+    padding-right: 122px;
+}
+
+a.DESCÚBRENOS:active{
+    align-items: center;
+    color: var(--color_secundario-blanco);
+    background: black;
+    border-radius: 15px;
+    height: 56px;
+    width: 213px;
+}
+
+a.WEBERLY_POLICE:active{
+    align-items: center;
+    color: var(--color_secundario-blanco);
+    background: black;
+    border-radius: 15px;
+    height: 56px;
+    width: 213px;
+}
+
+a.JUGUEMOS:active{
+    align-items: center;
+    color: var(--color_secundario-blanco);
+    background: black;
+    border-radius: 15px;
+    height: 56px;
+    width: 213px;
+}
+
+.btn_1{
+    background: none;
+}
+
+.btn_2{
+    background: none;
+}
+
+.btn_3{
+    background: none;
+}
+
+/*2da sección*/
+
+.pag_bienvenida{
+    background: var(--color_secundario-negro);
+    height: 690px;
+    width: 1440px;
+    display:flex;
+    align-items: center;
+}
+
+.img_bienvenida{
+    margin: auto;
+}
+
+/*3ra sección*/
+
+.pag_quiensoy{
+    display: flexbox;
+    background: var(--color_secundario-blanco);
+    width: 1440px;
+    height: 840px;
+}
+
+.subtitulo1{
+    padding-left: 122px;
+    padding-top: 20px;
+    font-size: 23pt;
+    font-family: fantasy;
+    color: #d6474f;
+}
+
+.texto1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    padding-left: 122px;
+    padding-top: 20px;
+    text-align: justify;
+    width: 820px;
+}
+
+.Emmanuel{
+    display: flex;
+    padding-left: 856px;
+    margin-top: -414px;
+}
+
+.texto2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    padding-left: 122px;
+    padding-top: 48px;
+    text-align: justify;
+    width: 1312px;
+}
+
+.Anuncio{
+    padding-left: 300px;
+    padding-top: 30px;
+}
+
+/*4ta sección*/
+
+.pag_video{
+    display: flex;
+    background: #888888;
+    height: 654px;
+    width: 1440px;
+}
+
+.video{
+    padding-left: 122px;
+    padding-top: 38px;
+}
+
+.btn_configuracion{
+    display: flex;
+    margin-left: -1053px;
+    margin-top: 47px; 
+}
+
+.btn_iniciar{
+    display: flex;
+    margin-left:-559px;
+    margin-top: 180px; 
+}
+
+.btn_pausa{
+    display: flex;
+    margin-left:-66px;
+    margin-top: 218px; 
+}
+
+.barradesonido{
+    display: flex;
+    margin-left: 30px;
+    padding-top: 37px;
+}
+
+/*5ta sección*/
+
+.pag_personaje{
+    display: flexbox;
+    height: 1110px ;
+    width: 1440px;
+}
+
+.deco_lineaiz{
+    display: flex;
+    margin-top: 20px;
+}
+
+.deco_circuloiz{
+    margin-top: -514px;
+    margin-left: 251px;
+    display: flex;
+}
+
+.personaje{
+    display: flex;
+    margin-left: 122px;
+    margin-top: 11px;
+}
+
+.subtitulo2{
+    display: flex;
+    font-size: 23pt;
+    font-family: fantasy;
+    color: #d6474f;
+    padding-left: 504px;
+    margin-top: -786px;
+}
+
+.texto3{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19pt;
+    padding-left:504px ;
+    margin-top: 20px;
+    text-align: justify;
+    width: 1300px;
+}
+
+.subtitulo3{
+    display: flex;
+    font-size: 23pt;
+    font-family: fantasy;
+    color: #d6474f;
+    padding-left: 504px;
+    margin-top: 20px;
+}
+
+.texto4{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19pt;
+    padding-left: 504px;
+    margin-top: 20px;
+    text-align: justify;
+    width: 1300px;
+}
+
+.subtitulo4{
+    display: flex;
+    font-size: 23pt;
+    font-family: fantasy;
+    color: #d6474f;
+    padding-left: 122px;
+    margin-top: 50px;
+}
+
+.texto5{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19pt;
+    padding-left: 122px;
+}
+
+.deco_lineade{
+    display: flex;
+    margin-left: 1102px;
+    margin-top: -429px;
+}
+
+.deco_circulode{
+    display: flex;
+    margin-left: 1107px;
+    margin-top: -285px;
+}
+
+/*6ta sección*/
+ 
+.pag_comojugar{
+    width: 1440px;
+    height: 79px;
+    background: var(--color_secundario-negro);
+}
+
+.titulo1{
+    height: 79px;
+    display: flex;
+    align-items: center;
+    color: var(--color_secundario-blanco);
+    font-size: 39pt;
+    font-family: 'Anton', sans-serif ;
+    margin-left: 496px;
+}
+
+.pag_comojugar2{
+    width: 1440px;
+    height: 626px;
+}
+
+.images_infografia{
+    display: flex;
+    margin-top: 71px;
+    padding-right:12px;
+    padding-left: 122px;
+}
+
+.infografia2{
+    margin-left: 30px;
+}
+
+.infografia3{
+    margin-left: 30px;
+}
+
+.subtitulo5{
+    display: flex;
+    margin-left: 485px;
+    margin-top: 20px;
+    font-size: 23pt;
+    font-family: fantasy;
+    color: #d6474f;
+}
+
+.texto6{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17pt;
+    margin-left: 485px;
+    margin-top: 20px;
+    text-align: justify;
+    width: 458px;
+}
+
+.img_secciones{
+    display: flex;
+    margin-left: 610px;
+    margin-top: 20px;
+}
+
+/*7ma sección*/
+
+.pag_juguemos{
+    width: 1440px;
+    height: 821px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.muro{
+    margin: auto;
+}
+
+.pag_juguemos2{
+    width: 1440px;
+    margin-left: 475px;
+    margin-top: -415px;
+}
+
+.btn1{
+    font-size: 14pt;
+    font-family: 'Anton', sans-serif;
+    background: var(--color_primario-rojo);
+    border: none;
+    border-radius: 20px;
+    height: 79px;
+    width: 456px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.linea{
+    width: 1440px;
+    height: 5px;
+    background-color: var(--color_secundario-negro);
+    margin-top: 353px;
+}
+
+/*Pie de página*/
+
+.pag_piedepagina{
+
+    width: 1440px;
+    height: 166px;
+}
+
+.grid1{
+    display: flex;
+    align-items: center;
+    height: 166px;
+    width: 1440px;
+}
+
+.correo{
+    margin-left: 180px;
+}
+
+.correo_info{
+    margin-left: 30px;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17pt;
+}
+
+.facebook{
+    margin-left: 180px;
+}
+
+.instagram{
+    margin-left: 84px;
+}
+
+.youtube{
+    margin-left: 84px;
+}
+
+.logo2{
+    margin-left: 124px;
+    margin-right: 122px;
+}
